@@ -1,0 +1,411 @@
+@prefix : <http://example.org/songs/#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix pro: <http://dbpedia.org/property/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix rd: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix af: <http://motools.sourceforge.net/doc/audio_features.html#>.
+@prefix mo: <http://purl.org/ontology/mo/%22>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+
+
+
+<http://dbpedia.org/resource/%220.958333333333333>
+    a dbo:Song, rd:Class;
+    dbo:genre "reggaeton";
+    <http://purl.org/ontology/mo/%22ArtistName> "Maluma";
+    <http://purl.org/ontology/mo/%22bpm> "96";
+    foaf:name "0.958333333333333";
+    <https://schema.org/%22duration> "176".
+	
+<http://dbpedia.org/resource/%227-rings>
+    a dbo:Song, rd:Class;
+    dbo:genre "dance pop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Ariana Grande";
+    <http://purl.org/ontology/mo/%22bpm> "140";
+    foaf:name "7 rings";
+    <https://schema.org/%22duration> "179".
+	
+<http://dbpedia.org/resource/%22Antisocial-(with-Travis-Scott)>
+    a dbo:Song, rd:Class;
+    dbo:genre "pop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Ed Sheeran";
+    <http://purl.org/ontology/mo/%22bpm> "152";
+    foaf:name "Antisocial (with Travis Scott)";
+    <https://schema.org/%22duration> "162".
+	
+<http://dbpedia.org/resource/%22bad-guy>
+    a dbo:Song, rd:Class;
+    dbo:genre "electropop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Billie Eilish";
+    <http://purl.org/ontology/mo/%22bpm> "135";
+    foaf:name "bad guy";
+    <https://schema.org/%22duration> "194".
+	
+<http://dbpedia.org/resource/%22bad-guy-(with-Justin-Bieber)>
+    a dbo:Song, rd:Class;
+    dbo:genre "electropop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Billie Eilish";
+    <http://purl.org/ontology/mo/%22bpm> "135";
+    foaf:name "bad guy (with Justin Bieber)";
+    <https://schema.org/%22duration> "195".
+	
+<http://dbpedia.org/resource/%22Beautiful-People-(feat.-Khalid)>
+    a dbo:Song, rd:Class;
+    dbo:genre "pop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Ed Sheeran";
+    <http://purl.org/ontology/mo/%22bpm> "93";
+    foaf:name "Beautiful People (feat. Khalid)";
+    <https://schema.org/%22duration> "198".
+	
+<http://dbpedia.org/resource/%22boyfriend-(with-Social-House)>
+    a dbo:Song, rd:Class;
+    dbo:genre "dance pop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Ariana Grande";
+    <http://purl.org/ontology/mo/%22bpm> "190";
+    foaf:name "boyfriend (with Social House)";
+    <https://schema.org/%22duration> "186".
+	
+<http://dbpedia.org/resource/%22Call-You-Mine>
+    a dbo:Song, rd:Class;
+    dbo:genre "edm";
+    <http://purl.org/ontology/mo/%22ArtistName> "The Chainsmokers";
+    <http://purl.org/ontology/mo/%22bpm> "104";
+    foaf:name "Call You Mine";
+    <https://schema.org/%22duration> "218".
+	
+<http://dbpedia.org/resource/%22Callaita>
+    a dbo:Song, rd:Class;
+    dbo:genre "reggaeton";
+    <http://purl.org/ontology/mo/%22ArtistName> "Bad Bunny";
+    <http://purl.org/ontology/mo/%22bpm> "176";
+    foaf:name "Callaita";
+    <https://schema.org/%22duration> "251".
+	
+<http://dbpedia.org/resource/%22China>
+    a dbo:Song, rd:Class;
+    dbo:genre "reggaeton flow";
+    <http://purl.org/ontology/mo/%22ArtistName> "Anuel AA";
+    <http://purl.org/ontology/mo/%22bpm> "105";
+    foaf:name "China";
+    <https://schema.org/%22duration> "302".
+	
+<http://dbpedia.org/resource/%22Con-Altura>
+    a dbo:Song, rd:Class;
+    dbo:genre "r&b en espanol";
+    <http://purl.org/ontology/mo/%22ArtistName> "ROSALIA";
+    <http://purl.org/ontology/mo/%22bpm> "98";
+    foaf:name "Con Altura";
+    <https://schema.org/%22duration> "162".
+	
+<http://dbpedia.org/resource/%22Con-Calma>
+    a dbo:Song, rd:Class;
+    dbo:genre "latin";
+    <http://purl.org/ontology/mo/%22ArtistName> "Daddy Yankee";
+    <http://purl.org/ontology/mo/%22bpm> "94";
+    foaf:name "Con Calma";
+    <https://schema.org/%22duration> "193".
+	
+<http://dbpedia.org/resource/%22Cross-Me-(feat.-Chance-the-Rapper-&-PnB-Rock)>
+    a dbo:Song, rd:Class;
+    dbo:genre "pop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Ed Sheeran";
+    <http://purl.org/ontology/mo/%22bpm> "95";
+    foaf:name "Cross Me (feat. Chance the Rapper & PnB Rock)";
+    <https://schema.org/%22duration> "206".
+	
+<http://dbpedia.org/resource/%22Dance-Monkey>
+    a dbo:Song, rd:Class;
+    dbo:genre "australian pop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Tones and I";
+    <http://purl.org/ontology/mo/%22bpm> "98";
+    foaf:name "Dance Monkey";
+    <https://schema.org/%22duration> "210".
+	
+<http://dbpedia.org/resource/%22fuck,-i'm-lonely-(with-Anne-Marie)---from-13-Reasons-Why:-Season-3>
+    a dbo:Song, rd:Class;
+    dbo:genre "dance pop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Lauv";
+    <http://purl.org/ontology/mo/%22bpm> "95";
+    foaf:name
+    "fuck, i'm lonely (with Anne-Marie) - from 13 Reasons Why: Season 3";
+    <https://schema.org/%22duration> "199".
+	
+<http://dbpedia.org/resource/%22Goodbyes-(Feat.-Young-Thug)>
+    a dbo:Song, rd:Class;
+    dbo:genre "dfw rap";
+    <http://purl.org/ontology/mo/%22ArtistName> "Post Malone";
+    <http://purl.org/ontology/mo/%22bpm> "150";
+    foaf:name "Goodbyes (Feat. Young Thug)";
+    <https://schema.org/%22duration> "175".
+	
+<http://dbpedia.org/resource/%22Happier>
+    a dbo:Song, rd:Class;
+    dbo:genre "brostep";
+    <http://purl.org/ontology/mo/%22ArtistName> "Marshmello";
+    <http://purl.org/ontology/mo/%22bpm> "100";
+    foaf:name "Happier";
+    <https://schema.org/%22duration> "214".
+	
+<http://dbpedia.org/resource/%22Higher-Love>
+    a dbo:Song, rd:Class;
+    dbo:genre "edm";
+    <http://purl.org/ontology/mo/%22ArtistName> "Kygo";
+    <http://purl.org/ontology/mo/%22bpm> "104";
+    foaf:name "Higher Love";
+    <https://schema.org/%22duration> "228".
+	
+<http://dbpedia.org/resource/%22How-Do-You-Sleep?>
+    a dbo:Song, rd:Class;
+    dbo:genre "pop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Sam Smith";
+    <http://purl.org/ontology/mo/%22bpm> "111";
+    foaf:name "How Do You Sleep?";
+    <https://schema.org/%22duration> "202".
+	
+<http://dbpedia.org/resource/%22I-Don't-Care-(with-Justin-Bieber)>
+    a dbo:Song, rd:Class;
+    dbo:genre "pop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Ed Sheeran";
+    <http://purl.org/ontology/mo/%22bpm> "102";
+    foaf:name "I Don't Care (with Justin Bieber)";
+    <https://schema.org/%22duration> "220".
+	
+<http://dbpedia.org/resource/%22If-I-Can't-Have-You>
+    a dbo:Song, rd:Class;
+    dbo:genre "canadian pop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Shawn Mendes";
+    <http://purl.org/ontology/mo/%22bpm> "124";
+    foaf:name "If I Can't Have You";
+    <https://schema.org/%22duration> "191".
+	
+<http://dbpedia.org/resource/%22It's-You>
+    a dbo:Song, rd:Class;
+    dbo:genre "canadian hip hop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Ali Gatie";
+    <http://purl.org/ontology/mo/%22bpm> "96";
+    foaf:name "It's You";
+    <https://schema.org/%22duration> "213".
+	
+<http://dbpedia.org/resource/%22LA-CANCIÓN>
+    a dbo:Song, rd:Class;
+    dbo:genre "latin";
+    <http://purl.org/ontology/mo/%22ArtistName> "J Balvin";
+    <http://purl.org/ontology/mo/%22bpm> "176";
+    foaf:name "LA CANCI\u00d3N";
+    <https://schema.org/%22duration> "243".
+	
+<http://dbpedia.org/resource/%22Lalala>
+    a dbo:Song, rd:Class;
+    dbo:genre "canadian hip hop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Y2K";
+    <http://purl.org/ontology/mo/%22bpm> "130";
+    foaf:name "Lalala";
+    <https://schema.org/%22duration> "161".
+	
+<http://dbpedia.org/resource/%22Loco-Contigo-(feat.-J.-Balvin-&-Tyga)>
+    a dbo:Song, rd:Class;
+    dbo:genre "dance pop";
+    <http://purl.org/ontology/mo/%22ArtistName> "DJ Snake";
+    <http://purl.org/ontology/mo/%22bpm> "96";
+    foaf:name "Loco Contigo (feat. J. Balvin & Tyga)";
+    <https://schema.org/%22duration> "185".
+	
+<http://dbpedia.org/resource/%22Money-In-The-Grave-(Drake-ft.-Rick-Ross)>
+    a dbo:Song, rd:Class;
+    dbo:genre "canadian hip hop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Drake";
+    <http://purl.org/ontology/mo/%22bpm> "101";
+    foaf:name "Money In The Grave (Drake ft. Rick Ross)";
+    <https://schema.org/%22duration> "205".
+	
+<http://dbpedia.org/resource/%22Never-Really-Over>
+    a dbo:Song, rd:Class;
+    dbo:genre "dance pop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Katy Perry";
+    <http://purl.org/ontology/mo/%22bpm> "100";
+    foaf:name "Never Really Over";
+    <https://schema.org/%22duration> "224".
+	
+<http://dbpedia.org/resource/%22No-Guidance-(feat.-Drake)>
+    a dbo:Song, rd:Class;
+    dbo:genre "dance pop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Chris Brown";
+    <http://purl.org/ontology/mo/%22bpm> "93";
+    foaf:name "No Guidance (feat. Drake)";
+    <https://schema.org/%22duration> "261".
+    
+<http://dbpedia.org/resource/%22No-Me-Conoce---Remix>
+    a dbo:Song, rd:Class;
+    dbo:genre "reggaeton flow";
+    <http://purl.org/ontology/mo/%22ArtistName> "Jhay Cortez";
+    <http://purl.org/ontology/mo/%22bpm> "92";
+    foaf:name "No Me Conoce - Remix";
+    <https://schema.org/%22duration> "309".
+   
+<http://dbpedia.org/resource/%22Old-Town-Road---Remix>
+    a dbo:Song, rd:Class;
+    dbo:genre "country rap";
+    <http://purl.org/ontology/mo/%22ArtistName> "Lil Nas X";
+    <http://purl.org/ontology/mo/%22bpm> "136";
+    foaf:name "Old Town Road - Remix";
+    <https://schema.org/%22duration> "157".
+	
+<http://dbpedia.org/resource/%22One-Thing-Right>
+    a dbo:Song, rd:Class;
+    dbo:genre "brostep";
+    <http://purl.org/ontology/mo/%22ArtistName> "Marshmello";
+    <http://purl.org/ontology/mo/%22bpm> "88";
+    foaf:name "One Thing Right";
+    <https://schema.org/%22duration> "182".
+   
+<http://dbpedia.org/resource/%22Otro-Trago>
+    a dbo:Song, rd:Class;
+    dbo:genre "panamanian pop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Sech";
+    <http://purl.org/ontology/mo/%22bpm> "176";
+    foaf:name "Otro Trago";
+    <https://schema.org/%22duration> "226".
+	
+<http://dbpedia.org/resource/%22Otro-Trago---Remix>
+    a dbo:Song, rd:Class;
+    dbo:genre "panamanian pop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Sech";
+    <http://purl.org/ontology/mo/%22bpm> "176";
+    foaf:name "Otro Trago - Remix";
+    <https://schema.org/%22duration> "288".
+	
+<http://dbpedia.org/resource/%22Panini>
+    a dbo:Song, rd:Class;
+    dbo:genre "country rap";
+    <http://purl.org/ontology/mo/%22ArtistName> "Lil Nas X";
+    <http://purl.org/ontology/mo/%22bpm> "154";
+    foaf:name "Panini";
+    <https://schema.org/%22duration> "115".
+    
+<http://dbpedia.org/resource/%22Piece-Of-Your-Heart>
+    a dbo:Song, rd:Class;
+    dbo:genre "pop house";
+    <http://purl.org/ontology/mo/%22ArtistName> "MEDUZA";
+    <http://purl.org/ontology/mo/%22bpm> "124";
+    foaf:name "Piece Of Your Heart";
+    <https://schema.org/%22duration> "153".
+	
+<http://dbpedia.org/resource/%22QUE-PRETENDES>
+    a dbo:Song, rd:Class;
+    dbo:genre "latin";
+    <http://purl.org/ontology/mo/%22ArtistName> "J Balvin";
+    <http://purl.org/ontology/mo/%22bpm> "93";
+    foaf:name "QUE PRETENDES";
+    <https://schema.org/%22duration> "222".
+	
+<http://dbpedia.org/resource/%22Ransom>
+    a dbo:Song, rd:Class;
+    dbo:genre "trap music";
+    <http://purl.org/ontology/mo/%22ArtistName> "Lil Tecca";
+    <http://purl.org/ontology/mo/%22bpm> "180";
+    foaf:name "Ransom";
+    <https://schema.org/%22duration> "131".
+	
+<http://dbpedia.org/resource/%22Senorita>
+    a dbo:Song, rd:Class;
+    dbo:genre "canadian pop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Shawn Mendes";
+    <http://purl.org/ontology/mo/%22bpm> "117";
+    foaf:name "Senorita";
+    <https://schema.org/%22duration> "191".
+	
+<http://dbpedia.org/resource/%22Shallow>
+    a dbo:Song, rd:Class;
+    dbo:genre "dance pop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Lady Gaga";
+    <http://purl.org/ontology/mo/%22bpm> "96";
+    foaf:name "Shallow";
+    <https://schema.org/%22duration> "216".
+	
+<http://dbpedia.org/resource/%22Soltera---Remix>
+    a dbo:Song, rd:Class;
+    dbo:genre "latin";
+    <http://purl.org/ontology/mo/%22ArtistName> "Lunay";
+    <http://purl.org/ontology/mo/%22bpm> "92";
+    foaf:name "Soltera - Remix";
+    <https://schema.org/%22duration> "266".
+	
+<http://dbpedia.org/resource/%22Someone-You-Loved>
+    a dbo:Song, rd:Class;
+    dbo:genre "pop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Lewis Capaldi";
+    <http://purl.org/ontology/mo/%22bpm> "110";
+    foaf:name "Someone You Loved";
+    <https://schema.org/%22duration> "182".
+	
+<http://dbpedia.org/resource/%22Sucker>
+    a dbo:Song, rd:Class;
+    dbo:genre "boy band";
+    <http://purl.org/ontology/mo/%22ArtistName> "Jonas Brothers";
+    <http://purl.org/ontology/mo/%22bpm> "138";
+    foaf:name "Sucker";
+    <https://schema.org/%22duration> "181".
+	
+<http://dbpedia.org/resource/%22Summer-Days-(feat.-Macklemore-&-Patrick-Stump-of-Fall-Out-Boy)>
+    a dbo:Song, rd:Class;
+    dbo:genre "big room";
+    <http://purl.org/ontology/mo/%22ArtistName> "Martin Garrix";
+    <http://purl.org/ontology/mo/%22bpm> "114";
+    foaf:name "Summer Days (feat. Macklemore & Patrick Stump of Fall Out Boy)";
+    <https://schema.org/%22duration> "164".
+	
+<http://dbpedia.org/resource/%22Sunflower---Spider-Man:-Into-the-Spider-Verse>
+    a dbo:Song, rd:Class;
+    dbo:genre "dfw rap";
+    <http://purl.org/ontology/mo/%22ArtistName> "Post Malone";
+    <http://purl.org/ontology/mo/%22bpm> "90";
+    foaf:name "Sunflower - Spider-Man: Into the Spider-Verse";
+    <https://schema.org/%22duration> "158".
+	
+<http://dbpedia.org/resource/%22Takeaway>
+    a dbo:Song, rd:Class;
+    dbo:genre "edm";
+    <http://purl.org/ontology/mo/%22ArtistName> "The Chainsmokers";
+    <http://purl.org/ontology/mo/%22bpm> "85";
+    foaf:name "Takeaway";
+    <https://schema.org/%22duration> "210".
+	
+<http://dbpedia.org/resource/%22Talk>
+    a dbo:Song, rd:Class;
+    dbo:genre "pop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Khalid";
+    <http://purl.org/ontology/mo/%22bpm> "136";
+    foaf:name "Talk";
+    <https://schema.org/%22duration> "198".
+	
+<http://dbpedia.org/resource/%22Te-Robaré>
+    a dbo:Song, rd:Class;
+    dbo:genre "latin";
+    <http://purl.org/ontology/mo/%22ArtistName> "Nicky Jam";
+    <http://purl.org/ontology/mo/%22bpm> "176";
+    foaf:name "Te Robar\u00e9";
+    <https://schema.org/%22duration> "202".
+	
+<http://dbpedia.org/resource/%22The-London-(feat.-J.-Cole-&-Travis-Scott)>
+    a dbo:Song, rd:Class;
+    dbo:genre "atl hip hop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Young Thug";
+    <http://purl.org/ontology/mo/%22bpm> "98";
+    foaf:name "The London (feat. J. Cole & Travis Scott)";
+    <https://schema.org/%22duration> "200".
+	
+<http://dbpedia.org/resource/%22Truth-Hurts>
+    a dbo:Song, rd:Class;
+    dbo:genre "escape room";
+    <http://purl.org/ontology/mo/%22ArtistName> "Lizzo";
+    <http://purl.org/ontology/mo/%22bpm> "158";
+    foaf:name "Truth Hurts";
+    <https://schema.org/%22duration> "173".
+	
+<http://dbpedia.org/resource/%22You-Need-To-Calm-Down>
+    a dbo:Song, rd:Class;
+    dbo:genre "dance pop";
+    <http://purl.org/ontology/mo/%22ArtistName> "Taylor Swift";
+    <http://purl.org/ontology/mo/%22bpm> "85";
+    foaf:name "You Need To Calm Down";
+    <https://schema.org/%22duration> "171".

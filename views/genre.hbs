@@ -1,0 +1,19 @@
+{{!-- <table border =1>
+    <tr><td>Song Title</td> <td>Length</td><td>Genre </td></tr>
+{{#each songs}}
+<tr>
+    <td>{{songtitle}}</td><td>{{duration}}</td><td>{{genre}}</td>
+</tr>
+
+{{/each}}
+</table> --}}
+
+{{#each PopSongs}}
+<td>
+	
+<ul>
+ <li><b>Artist:</b> {{artist}} <b>Title:</b> {{name}} <b>Genre:</b> {{genre}} </li>
+
+</ul>
+</td>
+{{/each}}

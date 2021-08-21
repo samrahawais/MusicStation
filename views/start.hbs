@@ -1,0 +1,27 @@
+
+
+{{#if user}}
+<h1><div align=center>{{user.username}}'s Home</div></h1>
+{{/if}}
+
+<table>
+  {{#if pl}}
+    <tr>
+      <h2> Public PlayLists</h2>
+    </tr>
+      {{#each pl}}
+      <li>
+      <a href="/playlist/playlists/{{pname}}"> {{pname}}</a>
+      </li>
+      {{/each}}
+{{else}}
+    <p> You have not made any public playlists</p>
+{{/if}}
+
+{{#if privatepl}}
+  <h2>Private Playlists</h2>
+{{#each privatepl}}
+    <li><a href="/playlist/playlists/{{pname}}"> {{pname}}</a></li>
+{{/each}}
+{{/if}}
+</table>

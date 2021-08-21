@@ -1,0 +1,22 @@
+ <form action="/playlist/deletePlaylist" method="POST"> 
+<br><br><br>
+
+{{#if pl}}
+{{pl.pname}}
+
+       <p> Select Playlist to delete </p> <select id=pname name=pname>
+                {{#each pl}}
+                        <option>{{pname}} </option>
+                {{/each}}
+        </select>
+        
+        <br><br><br>
+        <input type="submit" name=DeletePlaylist value="Delete"><br>
+
+{{else}}
+        <p> No playlists to delete!</p>
+
+
+
+{{/if}}
+</form>

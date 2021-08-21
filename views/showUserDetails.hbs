@@ -1,0 +1,18 @@
+<form action="/account/updateUser" method=POST>
+
+{{#if dbError}}
+    <p> Cannot display the account Details.</p>
+{{else}}
+    <ul>
+        <input type=hidden name=uid value={{myaccount.uid}}>
+        <p>Username: {{myaccount.username}} </p>
+        <p> Email Address: {{myaccount.email}}</p>
+    
+    </ul>
+{{/if}}
+
+{{#if isLoggedIn}}
+    <input type="submit" value="Edit">
+{{/if}}
+
+</form>

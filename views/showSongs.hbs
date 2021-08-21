@@ -1,0 +1,13 @@
+
+<h1> Songs</h1>
+
+<form action="/playlist" method="POST">
+ Enter  Playlist Name *: <input type=text name=pname >
+	{{#each songresult}}
+	<li>
+	<input type="checkbox" id={{sid}} name=songid value={{sid}}> {{songtitle}} {{genre}}
+	</li>
+	{{/each}}
+	<input type="checkbox" id=isChecked name=isChecked ><label for=isChecked> Private</label>
+	<div><input type="submit" value="Add to my Playlist"></div>
+</form> 

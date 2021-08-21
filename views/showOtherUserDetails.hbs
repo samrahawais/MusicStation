@@ -1,0 +1,15 @@
+
+
+
+
+
+    {{#if playlists}}
+   <h2> Public Playlists</h2><br>
+        {{#each playlists}}
+     <li>  <a href="/playlist/playlists/{{pname}}"> {{this.pname}}</a> </li>
+        {{/each}}
+    
+    {{else}}
+        <p> There are no Public playlists to display.</p>
+    {{/if}}
+

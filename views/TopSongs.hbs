@@ -1,0 +1,43 @@
+<div align=right>
+	
+	<form action="/getGenre" method="post">
+		<select id="genre" name="genre">
+			<option>Select the Genre</option>
+
+			{{#each genres}}
+				<option>{{genre}}</option>
+			{{/each}}
+		</select> 
+
+	<input type="submit" value="Get Songs"><br>
+	</form>
+	<br><br>
+	<form action="/getLinkedDataSongs" method="post">
+		<select id="singer" name="singer">
+			<option> Select the Artist</option>
+			<option>Lady Gaga</option>
+			<option>Daddy Yankee</option>
+			<option>Katy Perry</option>
+			<option>Chris Brown</option>
+			<option>Jonas Brothers</option>
+			<option>Nicky Jam</option>
+			<option>Taylor Swift</option>
+		</select>
+		<input type="submit" value="Get Songs">
+	</form>
+</div>
+<table align =center>
+<tr>
+	<td style="width: 200px; height:30px"><b>Artist:</b></td> 
+	<td style="width: 300px; height:30px"><b>Title:</b></td>
+	<td style="width: 200px; height:30px"><b>Genre:</b> </td>
+
+	</tr>
+ {{#each allSongs}} 
+  <tr>  
+	<td style="width: 200px; height:30px">{{artist}}</td> 
+	<td style="width: 300px; height:30px">{{name}}</td>
+	<td style="width: 200px; height:30px">{{genre}}</td>
+</tr>
+{{/each}} 
+</table>

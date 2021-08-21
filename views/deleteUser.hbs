@@ -1,0 +1,8 @@
+ <form action="/account/deleteUser" method="POST">
+           {{#each this}}
+            <li><input type="radio" id={{uid}} name=uid value={{uid}}>
+          {{username}}
+            </li>
+        {{/each}}
+     <input type="submit" name="DeleteProfile" value="Delete">
+</form>

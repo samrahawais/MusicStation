@@ -1,0 +1,31 @@
+<h1> Index Page</h1>
+{{#if validationError}}
+{{validationError}}
+{{/if}}
+<div>
+    <h2> Public PlayLists</h2>
+
+    <h1>{{request.session.isLoggedIn}}</h1>
+    {{#if request.session.isLoggedIn}}
+        {{#if pl}}
+            {{#each pl}}
+            <li>
+                <a href="playlist/playlists/{{pname}}">{{this.pname}}</a>
+            </li>
+            {{/each}}
+        {{/if}}
+
+
+        {{#if privatepl}}
+        <td>
+            <h2> Private PlayLists</h2>
+        </td>
+            {{#each privatepl}}
+            <li>
+                <a href="playlist/playlists/{{pname}}">{{this.pname}}</a>
+            </li>
+            {{/each}}
+        </div>
+        {{/if}}
+
+{{/if}}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/style.css">
+	<title>Main</title>
+</head>
+
+<body>
+	<div class='header' align=top>
+		<h1>Music Station</h1>
+		<p>Dance with the beat</p>
+	</div>
+
+	<div align=left><a href="/playlist">HOME</a> &nbsp;&nbsp;
+		<a href="/getSongs">Songs Library</a>
+		</div>
+	<table>
+		{{#if isLoggedIn}}
+			<tr>
+				<div align=right>
+					<form action="/logout" method="POST">
+						<input type="submit" name=Logout value="Logout">
+					</form>
+				</div>
+			</tr>
+			<tr>
+				<td><a href="/account/Allaccounts">View All Users</a>&nbsp;&nbsp;&nbsp;</td>
+					<td><a href="/playlist/toHome">MY HOME</a>&nbsp;&nbsp;&nbsp;</td>
+					<td><a href="/account">My Profile</a>&nbsp;&nbsp;&nbsp;</td>
+					<td><a href="/playlist/songs">Create New Playlist</a>&nbsp;&nbsp;&nbsp;</td>
+					<td><a href="/playlist/editPL">Edit/Update Playlist</a>&nbsp;&nbsp;&nbsp;</td>
+					<td><a href="/playlist/deletePL">Delete Playlist</a>&nbsp;&nbsp;&nbsp;</td>
+
+			</tr>
+		
+		{{else}}
+			<td>
+			<div align=right>
+			<a href="/login">Login/</a>
+			<a href="/signUp">SignUp </a>
+			</td><br>
+			</div>
+		{{/if}}
+		
+		
+	</table>
+	
+
+		{{{body}}}
+
+	<div class="footer" align=left>
+		<a href="/about">About Us</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="/contact"> Contact Us</a> <br>
+
+	</div>
+</body>
+</html>

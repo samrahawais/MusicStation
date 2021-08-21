@@ -1,0 +1,26 @@
+
+<form action="/playlist/editPL" method="POST">
+  <table> 
+      <h1> Playlist: {{pname}}</h1>
+<tr>
+  <td style="width: 100px; height:30px"><b>Song Id </b></td>
+  <td style="width: 200px; height:30px"><b>Song Title </b> </td>
+  <td style="width: 100px; height:30px"><b> Length </b>    </td>
+  <td style="width: 100px; height:30px"><b> Genre </b> </td>
+</tr>
+
+    
+{{#each playlistdetails}}
+    <input type="hidden" name="uid" value={{this.uid}}>
+    <input type="hidden" name="pname" value={{this.pname}}> 
+    <input type="hidden" name="selected" value={{this.sid}}> 
+    <tr>
+    <td style="width: 100px; height:30px">{{this.sid}}</td>
+    <td style="width: 200px; height:30px"> {{this.songtitle}}</td>
+    <td style="width: 100px; height:30px">{{this.duration}}</td>
+    <td style="width: 100px; height:30px">{{this.genre}}</td>
+    </tr>
+{{/each}}
+
+</table>
+</form>

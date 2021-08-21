@@ -1,0 +1,35 @@
+<form action="/account/updateProfile" method="POST">
+{{#if validationError}}
+
+{{validationError}}
+
+{{/if}}
+
+
+{{#if dbError}}
+    <p> Cannot display the account Details.</p>
+{{else}}
+        <br><br>
+        <p> Enter the required fields marked with (*) to update account details.</p>
+    <table>
+        <tr>
+            <td></td>
+            <td>  <input type=hidden name=id value={{myaccount.uid}}></td>
+        </tr>
+        <tr>
+            <td>Username *: </td> <td> <input type=text name=name size="20" value={{myaccount.username}}> Enter minimun 3 characters </td>
+        </tr>
+        <tr> 
+            <td> Create New Password *: </td><td> <input type="text" size="20" name=pwd > Enter exactly 6 characters </td>
+        </tr>
+        <tr>
+    <td>    Email:  </td><td> <input type=text name=email size="20" value={{myaccount.email}}></td>
+        </tr>
+    </table>
+{{/if}}
+<br>
+<br>
+    <tr>
+    <div align=left> <input type="submit" value="Update">  </div>
+    </tr>
+</form>

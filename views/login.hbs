@@ -1,0 +1,20 @@
+<h1> Login here</h1>
+{{#if validationError.length}}
+
+{{#each validationError}}
+<li>{{this}}</li>
+{{/each}}
+{{/if}}
+<form action="/chklogin" method="POST">
+<div> 
+  Username:  <input type="text" name="name">
+
+</div>
+<br>
+<div> 
+  Password:  <input type="password" name="pwd"> 
+  
+  </div>
+ <br>
+<input type="submit" value="Login">
+</form>

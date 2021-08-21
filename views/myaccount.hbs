@@ -1,0 +1,23 @@
+
+<h1> My Profile</h1>
+<h2>Welcome {{username}}</h2>
+	
+	
+
+<form action="/account/deleteUser" method="POST">
+{{#if this}}
+	<div align=left>
+				<a href="/account/users/{{uid}}" > {{username}} </a>
+	</div>
+{{else}}
+	<p> model is empty</p>	 
+{{/if}}
+	<br><br>
+<br>
+<div align=left>
+<input type="submit"  value="Delete My Profile"><br>
+</div>
+</form>
+
+
+   

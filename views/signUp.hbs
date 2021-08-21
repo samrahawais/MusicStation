@@ -1,0 +1,35 @@
+<h1> Register here</h1>
+{{#if validationError}}
+  {{#each validationError}}
+      {{validationError}}
+  {{/each}}
+{{/if}}
+<table>
+<form action="/account/register" method="POST">
+
+<div> 
+<tr>
+  <td><label size ="20">Username:</label></td> <td>  <input type="text" name="name" minlength="3" size="20"> Enter minimun 3 characters </td>
+</tr>
+</div>
+
+<div> 
+<tr>
+  <td><label>Password: </label></td> <td> <input type="password" name="pwd" maxlength="6" size="20"> Enter exactly 6 characters</td>
+</tr>
+</div>
+
+<div> 
+<tr>
+<td><label>Email:</label>   </td><td>   <input type="text" name="email" size="20"></td>
+</tr>
+</div>
+
+<div>
+<tr>
+  <td></td>
+  <td><input type="submit" value="Register"></td>
+</tr>
+</div>
+</form>
+</table>

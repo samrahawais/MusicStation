@@ -1,0 +1,63 @@
+.header {
+    line-height: 40%;
+    padding: 20px;
+    text-align: center;
+   /*background-image:url('bgImage1.png');*/
+   background-color:#6096BA;
+    
+    color: rgb(10, 10, 10);
+    font-size: 15px;
+  font-style: oblique;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+    p    {color: rgb(231, 128, 171);}
+   /* p    {color: rgb(101, 80, 238);}*/
+    height: 100%;
+   
+   a {color: rgb(6, 1, 20)}
+  }
+  
+  .footer {
+    position : fixed;
+    bottom : 0;
+    font-size: medium;
+    color:rgb(8, 8, 8);
+    text-align: center;
+    background-color:#6bb2ed;
+    height : 40px;
+    margin-top : 40px;
+    width: 100%;
+  }
+  .main{margin-left: 165px; font-size: x-large; background-color:#a3c2e6;
+    
+  }
+  .nav{float:right, width:150p; font-size: x-large;}
+  
+  <style>
+    h1   {color: rgb(2, 2, 2);}
+    p    {color: rgb(4, 1, 12);}
+    a:hover{color:rgb(7, 7, 7); background-color: rgb(243, 236, 240);}
+    
+  
+    body {
+    margin: 0;
+   
+    background-image: url("img1.jpg");
+    background-color:#b4d2f5;
+    background-size:cover;
+    width:auto;
+    background-blend-mode: soft-light;
+    
+  }
+  </style>
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  

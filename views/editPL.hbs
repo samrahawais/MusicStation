@@ -1,0 +1,18 @@
+<form action="/playlist/editablePL" method="POST">
+   {{#if pl}}
+      {{#each pl}}
+      <br><br><br>
+
+      <input type="radio" name=pname id={{pid}} value={{pname}}><LABEL>{{pname}}</LABEL>
+
+      {{/each}}<br>
+       <input type="submit" name="EditPlaylist" value="Edit"><br>
+   {{else}}
+   <p> No Playlists to Edit</p>
+
+  
+
+  
+   
+   {{/if}}
+   </form>

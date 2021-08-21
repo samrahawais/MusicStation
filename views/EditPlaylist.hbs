@@ -1,0 +1,34 @@
+<form action="/playlist/updatePlaylist" method="POST">
+<h1>Playlist Name:  {{playlistdetails.[0].pname}}</h1>
+<input type="hidden" name="oldpname"  id=oldpname value={{playlistdetails.[0].pname}} >
+New Playlist Name: <input type="text" name="newpname"  value={{playlistdetails.[0].pname}} >
+<input type="hidden" name="pid" value={{playlistdetails.[0].pid}}>
+<input type="hidden" name="uid" value={{playlistdetails.[0].uid}}>
+
+
+<table>
+	<td>
+		<p>Select from the  Songs</p>
+		{{#each songresult}}
+		<li>
+			{{#if this.isChecked}}
+				<input type="checkbox" id={{sid}} name=songid value={{this.sid}} checked=true>{{this.songtitle}} <br>
+			{{else}}
+				<input type="checkbox" id={{sid}} name=songid value={{this.sid}}>{{this.songtitle}} <br>
+		
+			{{/if}}
+			</li>
+		{{/each}}
+
+	{{#if isPrivate}} 
+			<input type="checkbox" id=isChecked name=isChecked checked=true > Private
+			<div><input type="submit" value="Update my Playlist"></div>
+		{{else}}
+			<input type="checkbox" id=isChecked name=isChecked > Private
+			<div><input type="submit" value="Update my Playlist"></div> 
+		{{/if}}
+	</td>
+ 
+ 
+</table>
+</form>
